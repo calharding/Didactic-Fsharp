@@ -18,4 +18,7 @@ let timeMap =
     | "0" -> "oh"
     | _ -> failwith "no way\n"
 
-timeMap curTime
+// timeMap curTime
+// test
+// test2
+let toEng = String.map timeMap
