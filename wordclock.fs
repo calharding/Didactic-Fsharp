@@ -1,3 +1,7 @@
+(* Get the system time and read it back in English
+   eg., "Three oh five."
+*)
+
 open System
 
 //let curTime = DateTime.Now
