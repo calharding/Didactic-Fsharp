@@ -1,8 +1,9 @@
 open System
 
-let curTime = DateTime.Now
+//let curTime = DateTime.Now
+let curTime = "2"
 
-printfn "%A" curTime 
+//printfn "%A" curTime //tmp
 
 let timeMap = 
     function
@@ -19,7 +20,4 @@ let timeMap =
     | _ -> failwith "no way\n"
 
 // timeMap curTime
-// test
-// test2
-// test3
-let toEng = String.map timeMap
+printfn "%s" <| (String.map timeMap curTime )
